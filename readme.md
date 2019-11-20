@@ -10,19 +10,22 @@
     DB_USERNAME=root
     DB_PASSWORD=root
     
-4. install composer
+4. Run Migrations
+    php artisan migrate
+    
+5. install composer
 
     composer install
     
-5. install JS dependancies
+6. install JS dependancies
 
     npm install
     
-6. Run the project
+7. Run the project
 
     php artisan serve
     
-7. open the project in the browser
+8. open the project in the browser
 
     localhost:8000
     
